@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","iocvfel")
+epicsEnvSet("TOP","/home/tong/Programming/projects/vFEL/controlMachine")
+epicsEnvSet("EPICS_BASE","/home/tong/APS/epics/base")

@@ -1,0 +1,5 @@
+#!/bin/csh -f
+
+rm -rf *.emit *.fin* *.cen *.en* *.out *.xy* *.param *.sig *.*~ *.erl *.twi *.w?? *.mag *.mpr *.wq*
+rm -rf *.traj *.hrm *.vrm *.hirm *.virm *.cor *.bpm_*
+

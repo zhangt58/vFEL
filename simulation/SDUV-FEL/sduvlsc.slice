@@ -1,0 +1,406 @@
+SDDS1
+!# little-endian
+&parameter name=Step, type=long, &end
+&column name=ElementName, type=string,  &end
+&column name=s, units=m, type=double,  &end
+&column name=etax, units=m, type=double,  &end
+&column name=etaxp, type=double,  &end
+&column name=etay, units=m, type=double,  &end
+&column name=etayp, type=double,  &end
+&column name=enx, units=m, type=double,  &end
+&column name=eny, units=m, type=double,  &end
+&column name=ecnx, units=m, type=double,  &end
+&column name=ecny, units=m, type=double,  &end
+&column name=betacx, units=m, type=double,  &end
+&column name=betacy, units=m, type=double,  &end
+&column name=alphacx, type=double,  &end
+&column name=alphacy, type=double,  &end
+&column name=charge, units=C, type=double,  &end
+&column name=particles, type=double,  &end
+&column name=duration, units=s, type=double,  &end
+&column name=Sdelta, type=double,  &end
+&column name=Cx, units=m, type=double,  &end
+&column name=Cy, units=m, type=double,  &end
+&column name=Cxp, units=m, type=double,  &end
+&column name=Cyp, units=m, type=double,  &end
+&column name=Cdelta, type=double,  &end
+&column name=Ct, units=s, type=double,  &end
+&column name=enxSlice01, units=m, type=double,  &end
+&column name=enySlice01, units=m, type=double,  &end
+&column name=ecnxSlice01, units=m, type=double,  &end
+&column name=ecnySlice01, units=m, type=double,  &end
+&column name=betacxSlice01, units=m, type=double,  &end
+&column name=betacySlice01, units=m, type=double,  &end
+&column name=alphacxSlice01, type=double,  &end
+&column name=alphacySlice01, type=double,  &end
+&column name=chargeSlice01, units=C, type=double,  &end
+&column name=particlesSlice01, type=double,  &end
+&column name=durationSlice01, units=s, type=double,  &end
+&column name=SdeltaSlice01, type=double,  &end
+&column name=CxSlice01, units=m, type=double,  &end
+&column name=CySlice01, units=m, type=double,  &end
+&column name=CxpSlice01, units=m, type=double,  &end
+&column name=CypSlice01, units=m, type=double,  &end
+&column name=CdeltaSlice01, type=double,  &end
+&column name=CtSlice01, units=s, type=double,  &end
+&column name=enxSlice02, units=m, type=double,  &end
+&column name=enySlice02, units=m, type=double,  &end
+&column name=ecnxSlice02, units=m, type=double,  &end
+&column name=ecnySlice02, units=m, type=double,  &end
+&column name=betacxSlice02, units=m, type=double,  &end
+&column name=betacySlice02, units=m, type=double,  &end
+&column name=alphacxSlice02, type=double,  &end
+&column name=alphacySlice02, type=double,  &end
+&column name=chargeSlice02, units=C, type=double,  &end
+&column name=particlesSlice02, type=double,  &end
+&column name=durationSlice02, units=s, type=double,  &end
+&column name=SdeltaSlice02, type=double,  &end
+&column name=CxSlice02, units=m, type=double,  &end
+&column name=CySlice02, units=m, type=double,  &end
+&column name=CxpSlice02, units=m, type=double,  &end
+&column name=CypSlice02, units=m, type=double,  &end
+&column name=CdeltaSlice02, type=double,  &end
+&column name=CtSlice02, units=s, type=double,  &end
+&column name=enxSlice03, units=m, type=double,  &end
+&column name=enySlice03, units=m, type=double,  &end
+&column name=ecnxSlice03, units=m, type=double,  &end
+&column name=ecnySlice03, units=m, type=double,  &end
+&column name=betacxSlice03, units=m, type=double,  &end
+&column name=betacySlice03, units=m, type=double,  &end
+&column name=alphacxSlice03, type=double,  &end
+&column name=alphacySlice03, type=double,  &end
+&column name=chargeSlice03, units=C, type=double,  &end
+&column name=particlesSlice03, type=double,  &end
+&column name=durationSlice03, units=s, type=double,  &end
+&column name=SdeltaSlice03, type=double,  &end
+&column name=CxSlice03, units=m, type=double,  &end
+&column name=CySlice03, units=m, type=double,  &end
+&column name=CxpSlice03, units=m, type=double,  &end
+&column name=CypSlice03, units=m, type=double,  &end
+&column name=CdeltaSlice03, type=double,  &end
+&column name=CtSlice03, units=s, type=double,  &end
+&column name=enxSlice04, units=m, type=double,  &end
+&column name=enySlice04, units=m, type=double,  &end
+&column name=ecnxSlice04, units=m, type=double,  &end
+&column name=ecnySlice04, units=m, type=double,  &end
+&column name=betacxSlice04, units=m, type=double,  &end
+&column name=betacySlice04, units=m, type=double,  &end
+&column name=alphacxSlice04, type=double,  &end
+&column name=alphacySlice04, type=double,  &end
+&column name=chargeSlice04, units=C, type=double,  &end
+&column name=particlesSlice04, type=double,  &end
+&column name=durationSlice04, units=s, type=double,  &end
+&column name=SdeltaSlice04, type=double,  &end
+&column name=CxSlice04, units=m, type=double,  &end
+&column name=CySlice04, units=m, type=double,  &end
+&column name=CxpSlice04, units=m, type=double,  &end
+&column name=CypSlice04, units=m, type=double,  &end
+&column name=CdeltaSlice04, type=double,  &end
+&column name=CtSlice04, units=s, type=double,  &end
+&column name=enxSlice05, units=m, type=double,  &end
+&column name=enySlice05, units=m, type=double,  &end
+&column name=ecnxSlice05, units=m, type=double,  &end
+&column name=ecnySlice05, units=m, type=double,  &end
+&column name=betacxSlice05, units=m, type=double,  &end
+&column name=betacySlice05, units=m, type=double,  &end
+&column name=alphacxSlice05, type=double,  &end
+&column name=alphacySlice05, type=double,  &end
+&column name=chargeSlice05, units=C, type=double,  &end
+&column name=particlesSlice05, type=double,  &end
+&column name=durationSlice05, units=s, type=double,  &end
+&column name=SdeltaSlice05, type=double,  &end
+&column name=CxSlice05, units=m, type=double,  &end
+&column name=CySlice05, units=m, type=double,  &end
+&column name=CxpSlice05, units=m, type=double,  &end
+&column name=CypSlice05, units=m, type=double,  &end
+&column name=CdeltaSlice05, type=double,  &end
+&column name=CtSlice05, units=s, type=double,  &end
+&column name=enxSlice06, units=m, type=double,  &end
+&column name=enySlice06, units=m, type=double,  &end
+&column name=ecnxSlice06, units=m, type=double,  &end
+&column name=ecnySlice06, units=m, type=double,  &end
+&column name=betacxSlice06, units=m, type=double,  &end
+&column name=betacySlice06, units=m, type=double,  &end
+&column name=alphacxSlice06, type=double,  &end
+&column name=alphacySlice06, type=double,  &end
+&column name=chargeSlice06, units=C, type=double,  &end
+&column name=particlesSlice06, type=double,  &end
+&column name=durationSlice06, units=s, type=double,  &end
+&column name=SdeltaSlice06, type=double,  &end
+&column name=CxSlice06, units=m, type=double,  &end
+&column name=CySlice06, units=m, type=double,  &end
+&column name=CxpSlice06, units=m, type=double,  &end
+&column name=CypSlice06, units=m, type=double,  &end
+&column name=CdeltaSlice06, type=double,  &end
+&column name=CtSlice06, units=s, type=double,  &end
+&column name=enxSlice07, units=m, type=double,  &end
+&column name=enySlice07, units=m, type=double,  &end
+&column name=ecnxSlice07, units=m, type=double,  &end
+&column name=ecnySlice07, units=m, type=double,  &end
+&column name=betacxSlice07, units=m, type=double,  &end
+&column name=betacySlice07, units=m, type=double,  &end
+&column name=alphacxSlice07, type=double,  &end
+&column name=alphacySlice07, type=double,  &end
+&column name=chargeSlice07, units=C, type=double,  &end
+&column name=particlesSlice07, type=double,  &end
+&column name=durationSlice07, units=s, type=double,  &end
+&column name=SdeltaSlice07, type=double,  &end
+&column name=CxSlice07, units=m, type=double,  &end
+&column name=CySlice07, units=m, type=double,  &end
+&column name=CxpSlice07, units=m, type=double,  &end
+&column name=CypSlice07, units=m, type=double,  &end
+&column name=CdeltaSlice07, type=double,  &end
+&column name=CtSlice07, units=s, type=double,  &end
+&column name=enxSlice08, units=m, type=double,  &end
+&column name=enySlice08, units=m, type=double,  &end
+&column name=ecnxSlice08, units=m, type=double,  &end
+&column name=ecnySlice08, units=m, type=double,  &end
+&column name=betacxSlice08, units=m, type=double,  &end
+&column name=betacySlice08, units=m, type=double,  &end
+&column name=alphacxSlice08, type=double,  &end
+&column name=alphacySlice08, type=double,  &end
+&column name=chargeSlice08, units=C, type=double,  &end
+&column name=particlesSlice08, type=double,  &end
+&column name=durationSlice08, units=s, type=double,  &end
+&column name=SdeltaSlice08, type=double,  &end
+&column name=CxSlice08, units=m, type=double,  &end
+&column name=CySlice08, units=m, type=double,  &end
+&column name=CxpSlice08, units=m, type=double,  &end
+&column name=CypSlice08, units=m, type=double,  &end
+&column name=CdeltaSlice08, type=double,  &end
+&column name=CtSlice08, units=s, type=double,  &end
+&column name=enxSlice09, units=m, type=double,  &end
+&column name=enySlice09, units=m, type=double,  &end
+&column name=ecnxSlice09, units=m, type=double,  &end
+&column name=ecnySlice09, units=m, type=double,  &end
+&column name=betacxSlice09, units=m, type=double,  &end
+&column name=betacySlice09, units=m, type=double,  &end
+&column name=alphacxSlice09, type=double,  &end
+&column name=alphacySlice09, type=double,  &end
+&column name=chargeSlice09, units=C, type=double,  &end
+&column name=particlesSlice09, type=double,  &end
+&column name=durationSlice09, units=s, type=double,  &end
+&column name=SdeltaSlice09, type=double,  &end
+&column name=CxSlice09, units=m, type=double,  &end
+&column name=CySlice09, units=m, type=double,  &end
+&column name=CxpSlice09, units=m, type=double,  &end
+&column name=CypSlice09, units=m, type=double,  &end
+&column name=CdeltaSlice09, type=double,  &end
+&column name=CtSlice09, units=s, type=double,  &end
+&column name=enxSlice10, units=m, type=double,  &end
+&column name=enySlice10, units=m, type=double,  &end
+&column name=ecnxSlice10, units=m, type=double,  &end
+&column name=ecnySlice10, units=m, type=double,  &end
+&column name=betacxSlice10, units=m, type=double,  &end
+&column name=betacySlice10, units=m, type=double,  &end
+&column name=alphacxSlice10, type=double,  &end
+&column name=alphacySlice10, type=double,  &end
+&column name=chargeSlice10, units=C, type=double,  &end
+&column name=particlesSlice10, type=double,  &end
+&column name=durationSlice10, units=s, type=double,  &end
+&column name=SdeltaSlice10, type=double,  &end
+&column name=CxSlice10, units=m, type=double,  &end
+&column name=CySlice10, units=m, type=double,  &end
+&column name=CxpSlice10, units=m, type=double,  &end
+&column name=CypSlice10, units=m, type=double,  &end
+&column name=CdeltaSlice10, type=double,  &end
+&column name=CtSlice10, units=s, type=double,  &end
+&column name=enxSlice11, units=m, type=double,  &end
+&column name=enySlice11, units=m, type=double,  &end
+&column name=ecnxSlice11, units=m, type=double,  &end
+&column name=ecnySlice11, units=m, type=double,  &end
+&column name=betacxSlice11, units=m, type=double,  &end
+&column name=betacySlice11, units=m, type=double,  &end
+&column name=alphacxSlice11, type=double,  &end
+&column name=alphacySlice11, type=double,  &end
+&column name=chargeSlice11, units=C, type=double,  &end
+&column name=particlesSlice11, type=double,  &end
+&column name=durationSlice11, units=s, type=double,  &end
+&column name=SdeltaSlice11, type=double,  &end
+&column name=CxSlice11, units=m, type=double,  &end
+&column name=CySlice11, units=m, type=double,  &end
+&column name=CxpSlice11, units=m, type=double,  &end
+&column name=CypSlice11, units=m, type=double,  &end
+&column name=CdeltaSlice11, type=double,  &end
+&column name=CtSlice11, units=s, type=double,  &end
+&column name=enxSlice12, units=m, type=double,  &end
+&column name=enySlice12, units=m, type=double,  &end
+&column name=ecnxSlice12, units=m, type=double,  &end
+&column name=ecnySlice12, units=m, type=double,  &end
+&column name=betacxSlice12, units=m, type=double,  &end
+&column name=betacySlice12, units=m, type=double,  &end
+&column name=alphacxSlice12, type=double,  &end
+&column name=alphacySlice12, type=double,  &end
+&column name=chargeSlice12, units=C, type=double,  &end
+&column name=particlesSlice12, type=double,  &end
+&column name=durationSlice12, units=s, type=double,  &end
+&column name=SdeltaSlice12, type=double,  &end
+&column name=CxSlice12, units=m, type=double,  &end
+&column name=CySlice12, units=m, type=double,  &end
+&column name=CxpSlice12, units=m, type=double,  &end
+&column name=CypSlice12, units=m, type=double,  &end
+&column name=CdeltaSlice12, type=double,  &end
+&column name=CtSlice12, units=s, type=double,  &end
+&column name=enxSlice13, units=m, type=double,  &end
+&column name=enySlice13, units=m, type=double,  &end
+&column name=ecnxSlice13, units=m, type=double,  &end
+&column name=ecnySlice13, units=m, type=double,  &end
+&column name=betacxSlice13, units=m, type=double,  &end
+&column name=betacySlice13, units=m, type=double,  &end
+&column name=alphacxSlice13, type=double,  &end
+&column name=alphacySlice13, type=double,  &end
+&column name=chargeSlice13, units=C, type=double,  &end
+&column name=particlesSlice13, type=double,  &end
+&column name=durationSlice13, units=s, type=double,  &end
+&column name=SdeltaSlice13, type=double,  &end
+&column name=CxSlice13, units=m, type=double,  &end
+&column name=CySlice13, units=m, type=double,  &end
+&column name=CxpSlice13, units=m, type=double,  &end
+&column name=CypSlice13, units=m, type=double,  &end
+&column name=CdeltaSlice13, type=double,  &end
+&column name=CtSlice13, units=s, type=double,  &end
+&column name=enxSlice14, units=m, type=double,  &end
+&column name=enySlice14, units=m, type=double,  &end
+&column name=ecnxSlice14, units=m, type=double,  &end
+&column name=ecnySlice14, units=m, type=double,  &end
+&column name=betacxSlice14, units=m, type=double,  &end
+&column name=betacySlice14, units=m, type=double,  &end
+&column name=alphacxSlice14, type=double,  &end
+&column name=alphacySlice14, type=double,  &end
+&column name=chargeSlice14, units=C, type=double,  &end
+&column name=particlesSlice14, type=double,  &end
+&column name=durationSlice14, units=s, type=double,  &end
+&column name=SdeltaSlice14, type=double,  &end
+&column name=CxSlice14, units=m, type=double,  &end
+&column name=CySlice14, units=m, type=double,  &end
+&column name=CxpSlice14, units=m, type=double,  &end
+&column name=CypSlice14, units=m, type=double,  &end
+&column name=CdeltaSlice14, type=double,  &end
+&column name=CtSlice14, units=s, type=double,  &end
+&column name=enxSlice15, units=m, type=double,  &end
+&column name=enySlice15, units=m, type=double,  &end
+&column name=ecnxSlice15, units=m, type=double,  &end
+&column name=ecnySlice15, units=m, type=double,  &end
+&column name=betacxSlice15, units=m, type=double,  &end
+&column name=betacySlice15, units=m, type=double,  &end
+&column name=alphacxSlice15, type=double,  &end
+&column name=alphacySlice15, type=double,  &end
+&column name=chargeSlice15, units=C, type=double,  &end
+&column name=particlesSlice15, type=double,  &end
+&column name=durationSlice15, units=s, type=double,  &end
+&column name=SdeltaSlice15, type=double,  &end
+&column name=CxSlice15, units=m, type=double,  &end
+&column name=CySlice15, units=m, type=double,  &end
+&column name=CxpSlice15, units=m, type=double,  &end
+&column name=CypSlice15, units=m, type=double,  &end
+&column name=CdeltaSlice15, type=double,  &end
+&column name=CtSlice15, units=s, type=double,  &end
+&column name=enxSlice16, units=m, type=double,  &end
+&column name=enySlice16, units=m, type=double,  &end
+&column name=ecnxSlice16, units=m, type=double,  &end
+&column name=ecnySlice16, units=m, type=double,  &end
+&column name=betacxSlice16, units=m, type=double,  &end
+&column name=betacySlice16, units=m, type=double,  &end
+&column name=alphacxSlice16, type=double,  &end
+&column name=alphacySlice16, type=double,  &end
+&column name=chargeSlice16, units=C, type=double,  &end
+&column name=particlesSlice16, type=double,  &end
+&column name=durationSlice16, units=s, type=double,  &end
+&column name=SdeltaSlice16, type=double,  &end
+&column name=CxSlice16, units=m, type=double,  &end
+&column name=CySlice16, units=m, type=double,  &end
+&column name=CxpSlice16, units=m, type=double,  &end
+&column name=CypSlice16, units=m, type=double,  &end
+&column name=CdeltaSlice16, type=double,  &end
+&column name=CtSlice16, units=s, type=double,  &end
+&column name=enxSlice17, units=m, type=double,  &end
+&column name=enySlice17, units=m, type=double,  &end
+&column name=ecnxSlice17, units=m, type=double,  &end
+&column name=ecnySlice17, units=m, type=double,  &end
+&column name=betacxSlice17, units=m, type=double,  &end
+&column name=betacySlice17, units=m, type=double,  &end
+&column name=alphacxSlice17, type=double,  &end
+&column name=alphacySlice17, type=double,  &end
+&column name=chargeSlice17, units=C, type=double,  &end
+&column name=particlesSlice17, type=double,  &end
+&column name=durationSlice17, units=s, type=double,  &end
+&column name=SdeltaSlice17, type=double,  &end
+&column name=CxSlice17, units=m, type=double,  &end
+&column name=CySlice17, units=m, type=double,  &end
+&column name=CxpSlice17, units=m, type=double,  &end
+&column name=CypSlice17, units=m, type=double,  &end
+&column name=CdeltaSlice17, type=double,  &end
+&column name=CtSlice17, units=s, type=double,  &end
+&column name=enxSlice18, units=m, type=double,  &end
+&column name=enySlice18, units=m, type=double,  &end
+&column name=ecnxSlice18, units=m, type=double,  &end
+&column name=ecnySlice18, units=m, type=double,  &end
+&column name=betacxSlice18, units=m, type=double,  &end
+&column name=betacySlice18, units=m, type=double,  &end
+&column name=alphacxSlice18, type=double,  &end
+&column name=alphacySlice18, type=double,  &end
+&column name=chargeSlice18, units=C, type=double,  &end
+&column name=particlesSlice18, type=double,  &end
+&column name=durationSlice18, units=s, type=double,  &end
+&column name=SdeltaSlice18, type=double,  &end
+&column name=CxSlice18, units=m, type=double,  &end
+&column name=CySlice18, units=m, type=double,  &end
+&column name=CxpSlice18, units=m, type=double,  &end
+&column name=CypSlice18, units=m, type=double,  &end
+&column name=CdeltaSlice18, type=double,  &end
+&column name=CtSlice18, units=s, type=double,  &end
+&column name=enxSlice19, units=m, type=double,  &end
+&column name=enySlice19, units=m, type=double,  &end
+&column name=ecnxSlice19, units=m, type=double,  &end
+&column name=ecnySlice19, units=m, type=double,  &end
+&column name=betacxSlice19, units=m, type=double,  &end
+&column name=betacySlice19, units=m, type=double,  &end
+&column name=alphacxSlice19, type=double,  &end
+&column name=alphacySlice19, type=double,  &end
+&column name=chargeSlice19, units=C, type=double,  &end
+&column name=particlesSlice19, type=double,  &end
+&column name=durationSlice19, units=s, type=double,  &end
+&column name=SdeltaSlice19, type=double,  &end
+&column name=CxSlice19, units=m, type=double,  &end
+&column name=CySlice19, units=m, type=double,  &end
+&column name=CxpSlice19, units=m, type=double,  &end
+&column name=CypSlice19, units=m, type=double,  &end
+&column name=CdeltaSlice19, type=double,  &end
+&column name=CtSlice19, units=s, type=double,  &end
+&column name=enxSlice20, units=m, type=double,  &end
+&column name=enySlice20, units=m, type=double,  &end
+&column name=ecnxSlice20, units=m, type=double,  &end
+&column name=ecnySlice20, units=m, type=double,  &end
+&column name=betacxSlice20, units=m, type=double,  &end
+&column name=betacySlice20, units=m, type=double,  &end
+&column name=alphacxSlice20, type=double,  &end
+&column name=alphacySlice20, type=double,  &end
+&column name=chargeSlice20, units=C, type=double,  &end
+&column name=particlesSlice20, type=double,  &end
+&column name=durationSlice20, units=s, type=double,  &end
+&column name=SdeltaSlice20, type=double,  &end
+&column name=CxSlice20, units=m, type=double,  &end
+&column name=CySlice20, units=m, type=double,  &end
+&column name=CxpSlice20, units=m, type=double,  &end
+&column name=CypSlice20, units=m, type=double,  &end
+&column name=CdeltaSlice20, type=double,  &end
+&column name=CtSlice20, units=s, type=double,  &end
+&column name=enxAve, units=m, type=double,  &end
+&column name=enyAve, units=m, type=double,  &end
+&column name=ecnxAve, units=m, type=double,  &end
+&column name=ecnyAve, units=m, type=double,  &end
+&column name=betacxAve, units=m, type=double,  &end
+&column name=betacyAve, units=m, type=double,  &end
+&column name=alphacxAve, type=double,  &end
+&column name=alphacyAve, type=double,  &end
+&column name=chargeAve, units=C, type=double,  &end
+&column name=particlesAve, type=double,  &end
+&column name=durationAve, units=s, type=double,  &end
+&column name=SdeltaAve, type=double,  &end
+&column name=CxAve, units=m, type=double,  &end
+&column name=CyAve, units=m, type=double,  &end
+&column name=CxpAve, units=m, type=double,  &end
+&column name=CypAve, units=m, type=double,  &end
+&column name=CdeltaAve, type=double,  &end
+&column name=CtAve, units=s, type=double,  &end
+&data mode=binary, &end

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+elegant sxfel_v14b.ele
+elegant v15match.ele
+
+sddsplot -graph=line,vary \
+	-col=s,betax sxfel_v14b.twi -legend=spec='betax v14' \
+	-col=s,betax v15match.twi -legend=spec='betax v15'
+
+sddsplot -graph=line,vary \
+	-col=s,betay sxfel_v14b.twi -legend=spec='betay v14' \
+	-col=s,betay v15match.twi -legend=spec='betay v15'
+
+sddsplot -graph=line,vary \
+	-col=s,alphax sxfel_v14b.twi -legend=spec='alphax v14' \
+	-col=s,alphax v15match.twi -legend=spec='alphax v15'
+
+sddsplot -graph=line,vary \
+	-col=s,alphay sxfel_v14b.twi -legend=spec='alphay v14' \
+	-col=s,alphay v15match.twi -legend=spec='alphay v15'
+
+
+
+
+
+
+

@@ -1,0 +1,461 @@
+'title = sxfel_v15b 
+!converted by ele2trans.m',2015-12-16 21:23:16 
+! final version 
+0 
+umm 
+order, n=1 
+spec, pmass=emass
+magnet, width=0.3, height=0.3, type=dpole
+magnet, width=0.2, height=0.2, type=qpole
+!---------------------------------------------------------
+beam,   betax = 20.682477, alphax = -1.462668, epsx = 3.777993e-3, &
+betay = 20.702226, alphay = -1.464092, epsy = 3.778597e-3, &
+p0 = 1.298311e-1
+eta0: eta, etax = 0.0, detax = 0.0
+!---------------------------------------------------------
+print, twiss, on
+print, precise
+print, floor
+plot, l, betax, alphax, betay, alphay, etax
+!---------------------------------------------------------
+
+ac1o1l2_2 : acce, l= 1.685680, volt= 0.064056 , lag= 4.000000, freq= 5712.000000 
+ac1o1l3_1 : acce, l= 1.685680, volt= 0.064056 , lag= 6.000000, freq= 5712.000000 
+ac1o1l3_2 : acce, l= 1.685680, volt= 0.064056 , lag= 6.000000, freq= 5712.000000 
+ac1o1l3_3 : acce, l= 1.685680, volt= 0.064056 , lag= 6.000000, freq= 5712.000000 
+ac1o1l3_4 : acce, l= 1.685680, volt= 0.064056 , lag= 6.000000, freq= 5712.000000 
+as1o1l1 : acce, l= 2.974132, volt= 0.083016 , lag= -29.200000, freq= 2856.000000 
+ax1o1l1 : acce, l= 0.944578, volt= 0.017947 , lag= 180.000000, freq= 11424.000000 
+b1bc1 : rbend , l = 0.30, angle= 0.0693 ,e1= 0.0000, e2= 0.0693,hgap=15
+b1bc2 : rbend , l = 0.30, angle= 0.0387 ,e1= 0.0000, e2= 0.0387,hgap=15
+b1lh : rbend , l = 0.20, angle= 0.0873 ,e1= 0.0000, e2= 0.0873,hgap=15
+b2bc1 : rbend , l = 0.30, angle= -0.0693 ,e1= -0.0693, e2= 0.0000,hgap=15
+b2bc2 : rbend , l = 0.30, angle= -0.0387 ,e1= -0.0387, e2= 0.0000,hgap=15
+b2lh : rbend , l = 0.20, angle= -0.0873 ,e1= -0.0873, e2= 0.0000,hgap=15
+b3bc1 : rbend , l = 0.30, angle= -0.0693 ,e1= 0.0000, e2= -0.0693,hgap=15
+b3bc2 : rbend , l = 0.30, angle= -0.0387 ,e1= 0.0000, e2= -0.0387,hgap=15
+b3lh : rbend , l = 0.20, angle= -0.0873 ,e1= 0.0000, e2= -0.0873,hgap=15
+b4bc1 : rbend , l = 0.30, angle= 0.0693 ,e1= 0.0693, e2= 0.0000,hgap=15
+b4bc2 : rbend , l = 0.30, angle= 0.0387 ,e1= 0.0387, e2= 0.0000,hgap=15
+b4lh : rbend , l = 0.20, angle= 0.0873 ,e1= 0.0873, e2= 0.0000,hgap=15
+bam01bi1 : drift , l = 0.150000
+bam01bi3 : drift , l = 0.150000
+bam01l0 : drift , l = 0.150000
+bll01 : drift , l = 0.070000
+bll02 : drift , l = 0.090000
+bll03 : drift , l = 0.184050
+bll04 : drift , l = 0.099820
+bpm01bc1 : drift , l = 0.075000
+bpm01bc2 : drift , l = 0.075000
+bpm01bi1 : drift , l = 0.075000
+bpm01bi2 : drift , l = 0.075000
+bpm01bi3 : drift , l = 0.075000
+bpm01l0 : drift , l = 0.075000
+bpm01l1 : drift , l = 0.075000
+bpm01l2 : drift , l = 0.075000
+bpm01l3 : drift , l = 0.075000
+bpm02bc1 : drift , l = 0.200000
+bpm02bi1 : drift , l = 0.075000
+bpm02bi3 : drift , l = 0.075000
+bpm02l0 : drift , l = 0.150000
+bpm02l2 : drift , l = 0.075000
+bpm02l3 : drift , l = 0.075000
+bpm03bi1 : drift , l = 0.075000
+bpm03bi3 : drift , l = 0.075000
+bpm03l0 : drift , l = 0.075000
+bpm03l3 : drift , l = 0.075000
+bpm04bi1 : drift , l = 0.075000
+bpm04l3 : drift , l = 0.075000
+bpm05bi1 : drift , l = 0.075000
+bpm05l3 : drift , l = 0.075000
+bpm06bi1 : drift , l = 0.075000
+bpm06l3 : drift , l = 0.075000
+bpm07bi1 : drift , l = 0.075000
+bpm07l3 : drift , l = 0.075000
+c : drift , l = 0
+cdr01bc1 : drift , l = 0.400000
+crr01bc1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01bc2 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01bi2 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01bi3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01l0 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01l1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01l2 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr01l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr02bc1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr02bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr02bi3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr02l0 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr02l2 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr02l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr03bc1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr03bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr03bi3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr03l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr04bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr04l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr05bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr05l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr06bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr06l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr07bi1 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+crr07l3 : kicker , l = 1.000000e-01, hkick=0, vkick=0 
+d01bc1 : drift , l = 0.100000
+d01bc2 : drift , l = 0.100000
+d01bi1 : drift , l = 0.100000
+d01bi2 : drift , l = 0.100000
+d01bi3 : drift , l = 0.100000
+d01l0 : drift , l = 0.534000
+d01l1 : drift , l = 0.100000
+d01l2 : drift , l = 1.598000
+d01l3 : drift , l = 0.100000
+d02bc1 : drift , l = 0.200000
+d02bc2 : drift , l = 0.200000
+d02bi1 : drift , l = 0.200000
+d02bi2 : drift , l = 0.200000
+d02bi3 : drift , l = 0.600000
+d02l0 : drift , l = 0.100000
+d02l1 : drift , l = 0.100000
+d02l2 : drift , l = 0.100000
+d02l3 : drift , l = 0.100000
+d03bc1 : drift , l = 0.100000
+d03bc2 : drift , l = 0.100000
+d03bi1 : drift , l = 0.100000
+d03bi2 : drift , l = 0.100000
+d03bi3 : drift , l = 0.100000
+d03l0 : drift , l = 0.100000
+d03l1 : drift , l = 0.100000
+d03l2 : drift , l = 0.100000
+d03l3 : drift , l = 0.100000
+d04bc1 : drift , l = 0.180000
+d04bi1 : drift , l = 0.100000
+d04bi2 : drift , l = 0.100000
+d04bi3 : drift , l = 0.100000
+d04l0 : drift , l = 0.100000
+d04l1 : drift , l = 0.100000
+d04l3 : drift , l = 0.100000
+d05bc1 : drift , l = 0.100000
+d05bi1 : drift , l = 0.200000
+d05bi2 : drift , l = 0.100000
+d05bi3 : drift , l = 0.600000
+d05l0 : drift , l = 0.200000
+d05l3 : drift , l = 0.100000
+d06bc1 : drift , l = 0.770000
+d06bi1 : drift , l = 0.100000
+d06bi3 : drift , l = 0.100000
+d06l0 : drift , l = 0.250955
+d06l3 : drift , l = 0.100000
+d07bc1 : drift , l = 0.200000
+d07bi1 : drift , l = 0.305000
+d07bi3 : drift , l = 2.868000
+d07l0 : drift , l = 0.050000
+d07l3 : drift , l = 0.100000
+d08bi1 : drift , l = 0.100000
+d08dbc1csr : drift , l = 0.330153
+d08dbc1lsc : drift , l = 0.000000
+d08dbc2csr : drift , l = 0.329360
+d08dbc2lsc : drift , l = 0.000000
+d08l0 : drift , l = 0.100000
+d08l3 : drift , l = 0.100000
+d09bc1 : drift , l = 0.100000
+d09bi1 : drift , l = 0.800000
+d09l0 : drift , l = 0.250955
+d09l3 : drift , l = 0.100000
+d10bc1 : drift , l = 0.100000
+d10bi1 : drift , l = 0.200000
+d10l0 : drift , l = 0.200000
+d10l3 : drift , l = 0.100000
+d11bi1 : drift , l = 0.100000
+d11l0 : drift , l = 0.100000
+d11l3 : drift , l = 0.100000
+d12bc1csr : drift , l = 0.100000
+d12bc1lsc : drift , l = 0.000000
+d12bi1 : drift , l = 0.265000
+d12l0 : drift , l = 0.100000
+d12l3 : drift , l = 0.100000
+d13bc1 : drift , l = 0.100000
+d13bi1 : drift , l = 0.100000
+d13l0 : drift , l = 0.100000
+d13l3 : drift , l = 0.100000
+d14bi1 : drift , l = 0.100000
+d14dbc1csr : drift , l = 0.330153
+d14dbc1lsc : drift , l = 0.000000
+d14dbc2csr : drift , l = 0.329360
+d14dbc2lsc : drift , l = 0.000000
+d14l0 : drift , l = 0.100000
+d14l3 : drift , l = 0.100000
+d15bc1 : drift , l = 0.200000
+d15bi1 : drift , l = 0.100000
+d15l0 : drift , l = 0.100000
+d16bc1 : drift , l = 0.770000
+d16bi1 : drift , l = 0.100000
+d16l0 : drift , l = 0.200000
+d17bc1 : drift , l = 0.100000
+d17bi1 : drift , l = 0.265000
+d17l0 : drift , l = 0.670000
+d18bc1 : drift , l = 0.180000
+d18bi1 : drift , l = 0.400000
+d19bi1 : drift , l = 0.100000
+d20bi1 : drift , l = 0.100000
+d21bi1 : drift , l = 0.400000
+d22bi1 : drift , l = 0.100000
+dawgc1 : drift , l = 0.051975
+dawgc2 : drift , l = 0.051975
+dawgs : drift , l = 0.047934
+dawgx1 : drift , l = 0.067711
+dawgx2 : drift , l = 0.067711
+dbend01bi1 : drift , l = 0.800000
+dbend01bi3 : drift , l = 2.000000
+dbend01l0 : drift , l = 0.800000
+dbpm : drift , l = 0.200000
+dbpmlsc : drift , l = 0.000000
+dcrr : drift , l = 0.025000
+dfodo1bi1 : drift , l = 0.215000
+dfodo2bi1 : drift , l = 0.700000
+dvalvbll : drift , l = 0.142000
+dzero : drift , l = 0.000000
+ict01bi1 : drift , l = 0.150000
+ict01bi3 : drift , l = 0.150000
+ict01l0 : drift , l = 0.150000
+l0wake : drift , l = 0
+lm : drift , l = 0.500000
+prf01bc1 : drift , l = 0.115000
+prf01bc2 : drift , l = 0.115000
+prf01bi1 : drift , l = 0.115000
+prf01bi2 : drift , l = 0.115000
+prf01bi3 : drift , l = 0.115000
+prf01l0 : drift , l = 0.115000
+prf01l1 : drift , l = 0.115000
+prf01l2 : drift , l = 0.115000
+prf01l3 : drift , l = 0.115000
+prf02bc1 : drift , l = 0.200000
+prf02bi1 : drift , l = 0.115000
+prf02bi3 : drift , l = 0.115000
+prf02l0 : drift , l = 0.140000
+prf02l2 : drift , l = 0.115000
+prf02l3 : drift , l = 0.115000
+prf03bi1 : drift , l = 0.115000
+prf03bi3 : drift , l = 0.115000
+prf03l0 : drift , l = 0.120000
+prf03l3 : drift , l = 0.115000
+prf04bi1 : drift , l = 0.115000
+prf04l0 : drift , l = 0.115000
+prf04l3 : drift , l = 0.115000
+prf05bi1 : drift , l = 0.115000
+prf05l3 : drift , l = 0.115000
+prf06bi1 : drift , l = 0.115000
+prf06l3 : drift , l = 0.115000
+prf07bi1 : drift , l = 0.115000
+prf07l3 : drift , l = 0.115000
+pstn01 : marker 
+pstn02 : marker 
+pstn03 : marker 
+pstn04 : marker 
+pstn05 : marker 
+pstn06 : marker 
+pstn07 : marker 
+pstn08 : marker 
+pstn09 : marker 
+pstn10 : marker 
+pstn11 : marker 
+pstn12 : marker 
+pstn13 : marker 
+pstn14 : marker 
+pstn15 : marker 
+q01bc1 : quad , l = 2.000000e-01, k1= -4.645730e+00 ,aper=15, type=qpole
+q01bc2 : quad , l = 2.000000e-01, k1= -2.317570e+00 ,aper=15, type=qpole
+q01bi1 : quad , l = 2.000000e-01, k1= 4.000000e-01 ,aper=15, type=qpole
+q01bi2 : quad , l = 2.000000e-01, k1= -2.227250e+00 ,aper=15, type=qpole
+q01bi3 : quad , l = 2.000000e-01, k1= 1 ,aper=15, type=qpole
+q01l0 : quad , l = 1.000000e-01, k1= 3.950000e+00 ,aper=15, type=qpole
+q01l1 : quad , l = 1.000000e-01, k1= -5.626940e+00 ,aper=15, type=qpole
+q01l2h : quad , l = 1.000000e-01, k1= -1.027110e+00 ,aper=15, type=qpole
+q01l3h : quad , l = 1.000000e-01, k1= -1.083030e+00 ,aper=15, type=qpole
+q02bc1 : quad , l = 2.000000e-01, k1= 4.333500e+00 ,aper=15, type=qpole
+q02bc2 : quad , l = 2.000000e-01, k1= 2.695000e+00 ,aper=15, type=qpole
+q02bi1 : quad , l = 2.000000e-01, k1= -8.000000e-01 ,aper=15, type=qpole
+q02bi2 : quad , l = 2.000000e-01, k1= 2.873415e+00 ,aper=15, type=qpole
+q02bi3 : quad , l = 2.000000e-01, k1= -6.000000e-01 ,aper=15, type=qpole
+q02l0 : quad , l = 2.000000e-01, k1= -3.750000e+00 ,aper=15, type=qpole
+q02l1 : quad , l = 2.000000e-01, k1= 5.597020e+00 ,aper=15, type=qpole
+q02l3h : quad , l = 1.000000e-01, k1= 9.949100e-01 ,aper=15, type=qpole
+q03bc1 : quad , l = 1.000000e-01, k1= 0 ,aper=15, type=qpole
+q03bi1 : quad , l = 2.000000e-01, k1= -4.120470e+00 ,aper=15, type=qpole
+q03bi2 : quad , l = 2.000000e-01, k1= 9.710000e-02 ,aper=15, type=qpole
+q03bi3 : quad , l = 2.000000e-01, k1= 3.000560e+00 ,aper=15, type=qpole
+q03l0 : quad , l = 1.000000e-01, k1= 3.950000e+00 ,aper=15, type=qpole
+q03l1 : quad , l = 1.000000e-01, k1= -5.626940e+00 ,aper=15, type=qpole
+q03l3h : quad , l = 1.000000e-01, k1= -1.004540e+00 ,aper=15, type=qpole
+q04bi1 : quad , l = 2.000000e-01, k1= 3.249140e+00 ,aper=15, type=qpole
+q04bi3 : quad , l = 2.000000e-01, k1= -2.877610e+00 ,aper=15, type=qpole
+q04l0 : quad , l = 1.000000e-01, k1= 4.279710e+00 ,aper=15, type=qpole
+q04l3h : quad , l = 1.000000e-01, k1= 9.949100e-01 ,aper=15, type=qpole
+q05bc1 : quad , l = 1.000000e-01, k1= 0 ,aper=15, type=qpole
+q05bi1 : quad , l = 2.000000e-01, k1= 1.660300e+00 ,aper=15, type=qpole
+q05l0 : quad , l = 2.000000e-01, k1= -4.086020e+00 ,aper=15, type=qpole
+q05l3h : quad , l = 1.000000e-01, k1= -1.004540e+00 ,aper=15, type=qpole
+q06bi1 : quad , l = 2.000000e-01, k1= 1.846800e+00 ,aper=15, type=qpole
+q06l0 : quad , l = 1.000000e-01, k1= 4.279710e+00 ,aper=15, type=qpole
+q06l3h : quad , l = 1.000000e-01, k1= 9.949100e-01 ,aper=15, type=qpole
+q07bi1 : quad , l = 2.000000e-01, k1= -3.134830e+00 ,aper=15, type=qpole
+q07l0 : quad , l = 1.000000e-01, k1= 0 ,aper=15, type=qpole
+q07l3h : quad , l = 1.000000e-01, k1= -1.004540e+00 ,aper=15, type=qpole
+q08bi1h : quad , l = 1.000000e-01, k1= -4.607690e+00 ,aper=15, type=qpole
+q08l0 : quad , l = 1.000000e-01, k1= 0 ,aper=15, type=qpole
+q09bi1h : quad , l = 1.000000e-01, k1= 4.607690e+00 ,aper=15, type=qpole
+q10bi1h : quad , l = 1.000000e-01, k1= -4.607690e+00 ,aper=15, type=qpole
+q11bi1h : quad , l = 1.000000e-01, k1= 4.607690e+00 ,aper=15, type=qpole
+q12bi1h : quad , l = 1.000000e-01, k1= -4.607690e+00 ,aper=15, type=qpole
+q13bi1h : quad , l = 1.000000e-01, k1= 4.607690e+00 ,aper=15, type=qpole
+q14bi1h : quad , l = 1.000000e-01, k1= -4.607690e+00 ,aper=15, type=qpole
+q15bi1h : quad , l = 1.000000e-01, k1= 4.607690e+00 ,aper=15, type=qpole
+q16bi1 : quad , l = 2.000000e-01, k1= 3.477440e+00 ,aper=15, type=qpole
+q17bi1 : quad , l = 2.000000e-01, k1= -4.004890e+00 ,aper=15, type=qpole
+q18bi1 : quad , l = 2.000000e-01, k1= -3.486170e+00 ,aper=15, type=qpole
+q19bi1 : quad , l = 2.000000e-01, k1= 4.211290e+00 ,aper=15, type=qpole
+slt01bc1 : drift , l = 0.210000
+tds01bi1 : drift , l = 1.400000
+tds01bi3 : drift , l = 1.400000
+tds01l0 : drift , l = 0.656000
+valv : drift , l = 0.072000
+w0 : drift , l = 0
+w1 : drift , l = 0
+w2 : drift , l = 0
+w3 : drift , l = 0
+w4 : drift , l = 0
+w5 : drift , l = 0
+!---------------------------------------------------------
+
+l0: line=(dzero, dzero, d01l0, q01l0, d02l0, q02l0, d03l0, q03l0, d04l0, &
+	          bll01, bpm01l0, crr01l0, dcrr, prf01l0, valv, bll01, d05l0, &
+	          b1lh, d06l0, b2lh, bpm02l0, bll02, prf02l0, d07l0, lm, d07l0, &
+	          prf03l0, d08l0, b3lh, d09l0, b4lh, d10l0, bll01, d11l0, q04l0, &
+	          d12l0, q05l0, d13l0, q06l0, d14l0, bll01, bpm03l0, crr02l0, &
+	          dcrr, prf04l0, bll01, tds01l0, bll01, d15l0, q07l0, d16l0, &
+	          q08l0, d17l0, bam01l0, ict01l0, bll01, dbend01l0, bll01, dbpm)
+asl1: line=(dawgs, as1o1l1, dawgs)
+axl1: line=(dawgx1, ax1o1l1, dawgx2)
+l1: line=(dzero, d01l1, q01l1, d02l1, q02l1, d03l1, &
+	          q03l1, d04l1, bll01, bpm01l1, crr01l1, dcrr, dbpmlsc, &
+	          prf01l1, valv, bll01, asl1, bll03, asl1, bll01, &
+	          valv, bll01, axl1, bll01, valv, pstn01)
+d08dbc1: line=(d08dbc1csr, d08dbc1lsc)
+d12bc1: line=(d12bc1csr, d12bc1lsc)
+d14dbc1: line=(d14dbc1csr, d14dbc1lsc)
+bc1: line=(dzero, d01bc1, q01bc1, d02bc1, q02bc1, d03bc1, bll01, &
+	           bpm01bc1, crr01bc1, dcrr, dbpmlsc, dbpmlsc, prf01bc1, bll01, d04bc1, b1bc1, &
+	           d05bc1, bll01, d06bc1, q03bc1, d07bc1, crr02bc1, 10*d08dbc1, &
+	           bll01, d09bc1, b2bc1, d10bc1, bll02, bpm02bc1, bll02, &
+	           slt01bc1, prf02bc1, bll02, d12bc1, b3bc1, d13bc1, bll01, &
+	           10*d14dbc1, crr03bc1, d15bc1, q05bc1, d16bc1, bll01, &
+	           d17bc1, b4bc1, pstn02, d18bc1, bll01, cdr01bc1)	         
+acl2_1: line=(dawgc1, 1*ac1o1l2_1, dawgc2)
+acl2_2: line=(dawgc1, 1*ac1o1l2_2, dawgc2)
+acl2_3: line=(dawgc1, 1*ac1o1l2_3, dawgc2)
+acl2_4: line=(dawgc1, 1*ac1o1l2_4, dawgc2)
+acl2_5: line=(dawgc1, 1*ac1o1l2_5, dawgc2)
+m1bi1: line=(dzero, dzero, d01bi1, q01bi1, d02bi1, q02bi1, d03bi1, valv, &
+	             bll01, tds01bi1, bll01, valv, d04bi1, q03bi1, &
+	             d05bi1, q04bi1, d06bi1, bll01, bpm01bi1, crr01bi1, dcrr, &
+	             prf01bi1, d07bi1, q05bi1, d08bi1, bll01, bam01bi1, ict01bi1, &
+	             d09bi1, q06bi1, d10bi1, q07bi1, d11bi1, bll01, bpm02bi1, &
+	             crr02bi1, dcrr, prf02bi1, d12bi1)             
+h01bi1: line=(q08bi1h, dfodo2bi1, q09bi1h, pstn03, q09bi1h, d13bi1, &
+	              bll01, bpm03bi1, crr03bi1, dcrr, prf03bi1, dfodo1bi1, &
+	              q10bi1h)
+h02bi1: line=(q10bi1h, dfodo2bi1, 2*q11bi1h, d14bi1, &
+	              bll01, bpm04bi1, crr04bi1, dcrr, prf04bi1, dfodo1bi1, &
+	              q12bi1h)
+h03bi1: line=(q12bi1h, dfodo2bi1, 2*q13bi1h, d15bi1, &
+	              bll01, bpm05bi1, crr05bi1, dcrr, prf05bi1, dfodo1bi1, &
+	              q14bi1h)
+h04bi1: line=(q14bi1h, dfodo2bi1, 2*q15bi1h, d16bi1, &
+	              bll01, bpm06bi1, crr06bi1, dcrr, prf06bi1)
+fodobi1: line=(dzero, h01bi1, pstn03, h02bi1, h03bi1, h04bi1)
+m2bi1: line=(dzero, d17bi1, q16bi1, d18bi1, q17bi1, d19bi1, bll01, &
+	             bpm07bi1, crr07bi1, dcrr, prf07bi1, dbend01bi1, bll01, &
+	             d20bi1, q18bi1, d21bi1, q19bi1, d22bi1, pstn05)
+ansm2bi1: line=(dzero, d17bi1, q16bi1, d18bi1, q17bi1, d19bi1, bll01, &
+	             bpm07bi1, crr07bi1, dcrr, prf07bi1, bend01bi1)
+bi1: line=(dzero, m1bi1, q08bi1h, pstn04, fodobi1, m2bi1)
+ansbi1: line=(dzero, m1bi1, q08bi1h, pstn04, fodobi1, ansm2bi1)
+testline: line=(m1bi1, q08bi1h, fodobi1)
+l2: line=(dzero, dzero, bll01, bpm01l2, crr01l2, dcrr, dbpmlsc, prf01l2, valv, &
+	          d01l2, bll01, acl2_1, bll04, acl2_1, d02l2, q01l2h, pstn06, &
+	          q01l2h, d03l2, bll01, bpm02l2, crr02l2, dcrr, prf02l2, &
+	          bll01, acl2_1, bll04, acl2_1, bll01, acl2_2, bll04, acl2_2, pstn07)          
+!bc2: line=(dzero, dzero, d01bc2, q01bc2, d02bc2, q02bc2, d03bc2, &
+	!           bll01, bpm01bc2, crr01bc2, dcrr, dbpmlsc, prf01bc2, valv, bll01, &
+	!           10*d04dbc2, bll01, bpm02bc2, crr02bc2, dcrr, dbpmlsc, prf02bc2, &
+	!		       bll01, 10*d05dbc2, bll01, pstn08)
+d08dbc2: line=(d08dbc2csr, d08dbc2lsc)
+d14dbc2: line=(d14dbc2csr, d14dbc2lsc)
+!bc2: line=(dzero, dzero, d01bc2, q01bc2, d02bc2, q02bc2, d03bc2, &
+	!           bll01, bpm01bc2, crr01bc2, dcrr, dbpmlsc, prf01bc2, valv, bll01, &
+	!           d04bc1, b1bc2, &
+	!           d05bc1, bll01, d06bc1, q03bc1, d07bc1, crr02bc1, 10*d08dbc2, &
+	!           bll01, d09bc1, b2bc2, d10bc1, bll02, bpm02bc1, bll02, &
+	!           slt01bc1, prf02bc1, bll02, d12bc1, b3bc2, d13bc1, bll01, &
+	!           10*d14dbc2, crr03bc1, d15bc1, q05bc1, d16bc1, bll01, &
+	!           d17bc1, b4bc2, pstn02, d18bc1, bll01, cdr01bc1)
+bc2: line=(dzero, dzero, d01bc2, q01bc2, d02bc2, q02bc2, d03bc2, &
+	           bll01, bpm01bc2, crr01bc2, dcrr, dbpmlsc, prf01bc2, valv, bll01, &
+	           d04bc1, b1bc2, &
+	           d05bc1, bll01, d06bc1, q03bc1, d07bc1, crr02bc1, 10*d08dbc2, &
+	           bll01, d09bc1, b2bc2, d10bc1, bll02, bpm02bc1, bll02, &
+	           slt01bc1, prf02bc1, bll02, d12bc1, b3bc2, d13bc1, bll01, &
+	           10*d14dbc2, crr03bc1, d15bc1, q05bc1, d16bc1, bll01, &
+	           d17bc1, b4bc2, d18bc1, bll01, cdr01bc1, pstn08)
+bi2: line=(dzero, dzero, d01bi2, q01bi2, d02bi2, q02bi2, d03bi2, bll01, &
+	           bpm01bi2, crr01bi2, dcrr, dbpmlsc, prf01bi2, d04bi2, q03bi2, d05bi2)
+acl3_1: line=(dawgc1, 1*ac1o1l3_1, dawgc2)
+acl3_2: line=(dawgc1, 1*ac1o1l3_2, dawgc2)
+acl3_3: line=(dawgc1, 1*ac1o1l3_3, dawgc2)
+acl3_4: line=(dawgc1, 1*ac1o1l3_4, dawgc2)
+acl3_5: line=(dawgc1, 1*ac1o1l3_5, dawgc2)
+acl3_6: line=(dawgc1, 1*ac1o1l3_6, dawgc2)
+acl3_7: line=(dawgc1, 1*ac1o1l3_7, dawgc2)
+h01l3: line=(dzero, d01l3, q01l3h, pstn09, q01l3h, d02l3, &
+	             bll01, bpm01l3, crr01l3, dcrr, prf01l3, valv, bll01, &
+	             acl3_1, bll04, acl3_1, d03l3, q02l3h)
+h02l3: line=(dzero, pstn10, q02l3h, d04l3, &
+	             bll01, bpm02l3, crr02l3, dcrr, prf02l3, valv, bll01, &
+	             acl3_2, bll04, acl3_2)
+h03l3: line=(dzero, d05l3, q03l3h, pstn11, q03l3h, d06l3, &
+	             bll01, bpm03l3, crr03l3, dcrr, prf03l3, valv, bll01, &
+	             acl3_3, bll04, acl3_3)
+h04l3: line=(dzero, d07l3, q04l3h, pstn12, q04l3h, d08l3, &
+	             bll01, bpm04l3, crr04l3, dcrr, prf04l3, valv, bll01, &
+	             acl3_4, bll04, acl3_4)
+h05l3: line=(dzero, d09l3, q05l3h, pstn13, q05l3h, d10l3, &
+	             bll01, bpm05l3, crr05l3, dcrr, prf05l3, valv, bll01, &
+	             acl3_4, bll04, acl3_4)
+h06l3: line=(dzero, d11l3, q06l3h, pstn14, q06l3h, d12l3, &
+	             bll01, bpm06l3, crr06l3, dcrr, prf06l3, dvalvbll, &
+	             acl3_4, bll04, acl3_4)
+h07l3: line=(dzero, d13l3, q07l3h, pstn15, q07l3h, d14l3, &
+	             bll01, bpm07l3, crr07l3, dcrr, prf07l3, dvalvbll, &
+	             acl3_4, bll04, acl3_4)
+l3: line=(dzero, h01l3, h02l3, h03l3, h04l3, h05l3, h06l3, h07l3)
+m1bi3: line=(dzero, d01bi3, q01bi3, d02bi3, q02bi3, d03bi3, bll01, &
+	             bpm01bi3, crr01bi3, dcrr, prf01bi3, valv, bll01, tds01bi3, &
+	             bll01, valv, d04bi3, q03bi3, d05bi3, q04bi3, d06bi3, bll01, &
+	             bpm02bi3, crr02bi3, dcrr, prf02bi3, d07bi3, bam01bi3, ict01bi3, &
+	             bll01, dbend01bi3, bll01, bpm03bi3, crr03bi3, dcrr, prf03bi3)
+ansm1bi3: line=(dzero, d01bi3, q01bi3, d02bi3, q02bi3, d03bi3, bll01, &
+	             bpm01bi3, crr01bi3, dcrr, prf01bi3, valv, bll01, tds01bi3, &
+	             bll01, valv, d04bi3, q03bi3, d05bi3, q04bi3, d06bi3, bll01, &
+	             bpm02bi3, crr02bi3, dcrr, prf02bi3, d07bi3, bam01bi3, ict01bi3, &
+	             bll01, bend01bi3)
+bi3: line=(dzero, m1bi3)
+ansbi3: line=(dzero, ansm1bi3)
+bl: line=(c, l0wake, l0, w0, l1, w1, bc1, w2, bi1, l2, w3, bc2, w4, bi2, l3, w5, bi3)
+bc1l: line=(c, bc1)
+ans1: line=(c, l0wake, l0, w0, l1, w1, bc1, w2, ansbi1)
+ans2: line=(c, l0wake, l0, w0, l1, w1, bc1, w2, bi1, l2, w3, bc2, w4, bi2, l3, w5, ansbi3)
+!---------------------------------------------------------
+
+use, beamline
+sentinel
+sentinel

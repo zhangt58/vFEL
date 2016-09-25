@@ -1,0 +1,20 @@
+
+elegant sxfel_v14b.ele
+elegant sxfel_v15b.ele
+
+#sddsplot sxfel_v14b.twi -col=s,beta*  -graph=line,vary -legend -title='v14b 840mev' -toptitle
+#sddsplot sxfel_v14b.twi -col=s,alpha* -graph=line,vary -legend -title='v14b 840mev' -toptitle
+    
+#sddsplot sxfel_v15b.twi -col=s,beta* -graph=line,vary -legend -title='v15b 1.6gev' -toptitle
+#sddsplot sxfel_v15b.twi -col=s,alpha* -graph=line,vary -legend -title='v15b 1.6gev' -toptitle
+    
+
+sddsplot -graph=line,vary \
+	-col=s,betax sxfel_v14b.twi -legend=spec='betax v14' \
+	-col=s,betax sxfel_v15b.twi -legend=spec='betax v15'
+
+sddsplot -graph=line,vary \
+	-col=s,betay sxfel_v14b.twi -legend=spec='betay v14' \
+	-col=s,betay sxfel_v15b.twi -legend=spec='betay v15'
+
+sddsprintout -col='(s,elementname,betax,betay,alphax,alphay)' sxfel_v14b.twi sxfel_v14b.twi.txt

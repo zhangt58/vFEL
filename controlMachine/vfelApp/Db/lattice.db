@@ -1,0 +1,67 @@
+record(aSub, $(fel):lattice)
+{
+    field(DESC, "Return lattice array")
+    field(INAM, "vfelLatticeAsubInit")
+    field(SNAM, "vfelLatticeAsubProcess")
+
+    field(FTA,  "DOUBLE")
+    field(NOA,  "1")
+    field(INPA, "$(fel):lattice:Q09 CPP NMS")
+
+    field(FTB,  "DOUBLE")
+    field(NOB,  "1")
+    field(INPB, "$(fel):lattice:Q10 CPP NMS")
+
+    field(FTVA,  "DOUBLE")
+    field(NOVA,  "10")
+    field(NEVA,  "2")
+    field(OUTA,  "$(fel):lattice:array1 CPP NMS")
+}
+
+record(ai, $(fel):lattice:Q09:set)
+{
+    field(DESC, "Quadrupole of id Q09")
+    field(DTYP, "Soft Channel")
+    field(VAL,  "10")
+    field(FLNK, "$(fel):lattice:Q09 CPP NMS")
+}
+
+record(calc, "$(fel):lattice:Q09")
+{
+    #field(SCAN, "1 second")
+    field(PREC, "4")
+    field(CALC, "A+A*B")
+    field(INPA, "$(fel):lattice:Q09:set.VAL NPP NMS")
+    field(INPB, "$(fel):randomM CPP NMS")
+}
+
+record(ai, $(fel):lattice:Q10:set)
+{
+    field(DESC, "Quadrupole of id Q10")
+    field(VAL,  "-10")
+    field(DTYP, "Soft Channel")
+    field(FLNK, "$(fel):lattice:Q10 CPP NMS")
+}
+
+record(calc, "$(fel):lattice:Q10")
+{
+    #field(SCAN, "1 second")
+    field(PREC, "4")
+    field(CALC, "A+A*B*2")
+    field(INPA, "$(fel):lattice:Q10:set.VAL NPP NMS")
+    field(INPB, "$(fel):randomM CPP NMS")
+}
+
+record(calc, $(fel):randomM)
+{
+    #field(SCAN, "1 second")
+    field(CALC, "(RNDM*.4)-.2")
+}
+
+record(waveform, "$(fel):lattice:array1")
+{
+    field(DESC, "Lattice array 1")
+    field(DTYP, "Soft Channel")
+    field(NELM, "2")
+    field(FTVL, "DOUBLE")
+}

@@ -1,0 +1,90 @@
+new variable values for evaluation 1 of pass 1:
+     q01bc2.k1:  -2.317570000000000e+00
+     q02bc2.k1:   2.695000000000000e+00
+     q01bi2.k1:  -2.227250000000000e+00
+     q02bi2.k1:   2.873415000000000e+00
+4 matrices (re)computed
+computing twiss parameters for optimization
+tracking for optimization
+equation evaluates to   0.000000000000000e+00
+terms of equation: 
+1*(pstn09#1.betax   target.betax  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.betay   target.betay  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphax  target.alphax 0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphay  target.alphay 0.01 sene):   0.000000000000000e+00
+
+
+** result is new best
+new variable values for evaluation 2 of pass 1:
+     q01bc2.k1:  -2.317570000000000e+00
+     q02bc2.k1:   2.695000000000000e+00
+     q01bi2.k1:  -2.227250000000000e+00
+     q02bi2.k1:   2.873415000000000e+00
+4 matrices (re)computed
+computing twiss parameters for optimization
+tracking for optimization
+equation evaluates to   0.000000000000000e+00
+terms of equation: 
+1*(pstn09#1.betax   target.betax  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.betay   target.betay  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphax  target.alphax 0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphay  target.alphay 0.01 sene):   0.000000000000000e+00
+
+
+optimization pass 1 completed:
+    optimization function has value   0.000000000000000e+00
+terms of equation: 
+1*(pstn09#1.betax   target.betax  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.betay   target.betay  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphax  target.alphax 0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphay  target.alphay 0.01 sene):   0.000000000000000e+00
+    values of variables:
+     q01bc2.k1:  -2.317570000000000e+00 
+     q02bc2.k1:   2.695000000000000e+00 
+     q01bi2.k1:  -2.227250000000000e+00 
+     q02bi2.k1:   2.873415000000000e+00 
+new variable values for evaluation 3 of pass 2:
+     q01bc2.k1:  -2.317570000000000e+00
+     q02bc2.k1:   2.695000000000000e+00
+     q01bi2.k1:  -2.227250000000000e+00
+     q02bi2.k1:   2.873415000000000e+00
+4 matrices (re)computed
+computing twiss parameters for optimization
+tracking for optimization
+equation evaluates to   0.000000000000000e+00
+terms of equation: 
+1*(pstn09#1.betax   target.betax  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.betay   target.betay  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphax  target.alphax 0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphay  target.alphay 0.01 sene):   0.000000000000000e+00
+
+
+new variable values for evaluation 4 of pass 2:
+     q01bc2.k1:  -2.317570000000000e+00
+     q02bc2.k1:   2.695000000000000e+00
+     q01bi2.k1:  -2.227250000000000e+00
+     q02bi2.k1:   2.873415000000000e+00
+4 matrices (re)computed
+computing twiss parameters for optimization
+tracking for optimization
+equation evaluates to   0.000000000000000e+00
+terms of equation: 
+1*(pstn09#1.betax   target.betax  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.betay   target.betay  0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphax  target.alphax 0.01 sene):   0.000000000000000e+00
+1*(pstn09#1.alphay  target.alphay 0.01 sene):   0.000000000000000e+00
+
+
+optimization results:
+  optimization function has value 0
+terms of equation: 
+pstn09#1.betax   target.betax  0.01 sene:   0.000000000000000e+00
+pstn09#1.betay   target.betay  0.01 sene:   0.000000000000000e+00
+pstn09#1.alphax  target.alphax 0.01 sene:   0.000000000000000e+00
+pstn09#1.alphay  target.alphay 0.01 sene:   0.000000000000000e+00
+    a total of 4 function evaluations were made.
+optimum values of variables and changes from initial values:
+ q01bc2.k1:  -2.317570000000000e+00    0.000000000000000e+00 (was  -2.317570000000000e+00) 
+ q02bc2.k1:   2.695000000000000e+00    0.000000000000000e+00 (was   2.695000000000000e+00) 
+ q01bi2.k1:  -2.227250000000000e+00    0.000000000000000e+00 (was  -2.227250000000000e+00) 
+ q02bi2.k1:   2.873415000000000e+00    0.000000000000000e+00 (was   2.873415000000000e+00) 

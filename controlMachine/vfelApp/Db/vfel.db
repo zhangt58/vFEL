@@ -1,0 +1,102 @@
+record(aSub, "$(fel):simulator")
+{
+    field(DESC, "Machine simulator")
+    field(INAM, "vfelSimulatorAsubInit")
+    field(SNAM, "vfelSimulatorAsubProcess")
+
+    # use as trig
+    field(FTU,  "USHORT")
+    field(NOU,  "1")
+    field(INPU, "$(fel):trig CPP")
+
+    # ele filename
+    field(FTA,  "STRING")
+    field(NOA,  "1")
+    field(INPA, "$(fel):elefile CPP")
+
+    # lte filename
+    field(FTB,  "STRING")
+    field(NOB,  "1")
+    field(INPB, "$(fel):ltefile CPP")
+
+    # simulation case root path 
+    field(FTC,  "STRING")
+    field(NOC,  "1")
+    field(INPC, "$(fel):simfolderhead CPP")
+
+    # profile1 outfile name
+    field(FTD,  "STRING")
+    field(NOD,  "1")
+    field(INPD, "$(fel):outfilename1 CPP")
+
+    # lattice array (1)
+    field(FTE,  "DOUBLE")
+    field(NOE,  "10")
+    field(NEE,  "2")
+    field(INPE, "$(fel):lattice:array1 CPP NMS")
+
+    # profile #1
+    field(FTVA, "DOUBLE")
+    field(OUTA, "$(fel):prof1 CPP")
+    field(NOVA, "400000")
+    field(NEVA, "10000")
+}
+
+record(ai, $(fel):trig)
+{
+    field(DESC, "Trigger for virtual machine")
+    field(INP,  "$(fel):calcTrig.VAL NPP NMS")
+    #field(DTYP, "Soft Channel")
+}
+
+record(calc, "$(fel):calcTrig")
+{
+    field(DESC, "Calc for trigger")
+    #field(SCAN, "2 second")
+    field(SCAN, "Passive")
+    field(FLNK, "$(fel):trig")
+    field(CALC, "A+B*10")
+    field(INPA, "$(fel):trig.VAL NPP NMS")
+    field(INPB, "$(fel):randomM PP NMS")
+}
+
+record(calc, $(fel):randomM)
+{
+    field(CALC, "(RNDM*.1)-.05")
+}
+
+record(stringin, "$(fel):simfolderhead")
+{
+    field(DESC, "full path dirname for inputfiles")
+    field(DTYP, "Soft Channel")
+    field(VAL,  "linac")
+}
+
+record(stringin, "$(fel):elefile")
+{
+    field(DESC, "ele inputfile name for elegant")
+    field(DTYP, "Soft Channel")
+    field(VAL,  "linac.ele")
+}
+
+record(stringin, "$(fel):ltefile")
+{
+    field(DESC, "lte inputfile name for elegant")
+    field(DTYP, "Soft Channel")
+    field(VAL,  "linac.lte")
+}
+
+record(stringin, "$(fel):outfilename1")
+{
+    field(DESC, "out data file for prof 1")
+    field(DTYP, "Soft Channel")
+    field(VAL,  "linac.h2d.asc")
+}
+
+record(waveform, "$(fel):prof1")
+{
+    field(DESC, "profile #1")
+    field(DTYP, "Soft Channel")
+    field(NELM, "10000")
+    field(FTVL, "DOUBLE")
+}

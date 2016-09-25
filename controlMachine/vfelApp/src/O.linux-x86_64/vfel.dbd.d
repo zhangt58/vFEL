@@ -1,0 +1,50 @@
+# DO NOT EDIT: This file created by mkmf.pl,v 1.5 2002/03/25 21:33:24 jba Exp $ 
+
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/base.dbd
+../O.Common/vfel.dbd : ../vfelSub.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuGlobal.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuConvert.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/aaiRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/aaoRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/aiRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/aoRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/aSubRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/biRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/boRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/calcRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/calcoutRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/compressRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/dfanoutRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/eventRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/fanoutRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/longinRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/longoutRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/mbbiRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/mbbiDirectRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/mbboRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/mbboDirectRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/permissiveRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/selRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/seqRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/stateRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/stringinRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/stringoutRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/subRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/subArrayRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/waveformRecord.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/devSoft.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuAlarmSevr.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuAlarmStat.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuCompress.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuFtype.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuIvoa.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuOmsl.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuPini.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuPriority.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuScan.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuSimm.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/menuYesNo.dbd
+../O.Common/vfel.dbd : /home/tong/APS/epics/base/dbd/dbCommon.dbd
+
+
+../O.Common/vfelInclude.dbd : ../Makefile
